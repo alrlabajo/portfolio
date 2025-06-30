@@ -37,6 +37,10 @@ body {
   background: linear-gradient(135deg, #6b7280, #4b5563);
 }
 
+.tech-productivity {
+  background: linear-gradient(135deg, #f44336, #e53935); 
+}
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
