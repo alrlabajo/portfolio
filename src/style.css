@@ -8,6 +8,35 @@ body {
   font-weight: 700;
   font-family: poppins, sans-serif;
 }
+
+.tech-programming {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.tech-frontend {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+.tech-framework {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+}
+
+.tech-data-science {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.tech-database {
+  background: linear-gradient(135deg, #06b6d4, #0891b2);
+}
+
+.tech-design {
+  background: linear-gradient(135deg, #ec4899, #db2777);
+}
+
+.tech-dev-tool {
+  background: linear-gradient(135deg, #6b7280, #4b5563);
+}
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;

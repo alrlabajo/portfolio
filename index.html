@@ -81,7 +81,9 @@
                 </div>
                 <div id="default-tab-content">
                     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                        <div class="text-sm text-gray-500 dark:text-gray-400">
+                            <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                        </div>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
                         <div class="text-sm text-gray-500 dark:text-gray-400">
@@ -99,43 +101,80 @@
     <section id="projects" class="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-gray-900 px-4 md:px-8 lg:px-16 py-16">
         <h2 class="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 dark:text-white mb-12">My Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-screen-xl md:px-14 px-6">
-            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-                <img class="w-full h-48 object-cover" src="D:\Downloads\LYKA\portfolio\images\IDE.png" alt="Project thumbnail">
-                <div class="p-6">
-                    <h3 class="font-bold text-xl mb-3 text-gray-900 dark:text-white">Imperial Code</h3>
-                    <p class="text-gray-600 dark:text-gray-300 text-base mb-4">
-                        Project description goes here. Keep it brief but informative.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-white rounded-full">#tech</span>
-                        <span class="px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-white rounded-full">#stack</span>
-                    </div>
+            <!-- PLM Budget Office -->
+            <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
+                <img class="w-full h-48 object-cover rounded-xl" src="D:\Downloads\LYKA\portfolio\images\BUDGETING.jpg" alt="Project thumbnail">
+                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">Web-based Budgeting System</h3>
+                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
+                    Support programmer for PLM's Budgeting Office ERP system using Laravel Framework.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PHP</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYQT</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
                 </div>
             </div>
-            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-                <img class="w-full h-48 object-cover" src="/img/card-top.jpg" alt="Project thumbnail">
-                <div class="p-6">
-                    <h3 class="font-bold text-xl mb-3 text-gray-900 dark:text-white">Gather Up</h3>
-                    <p class="text-gray-600 dark:text-gray-300 text-base mb-4">
-                        Project description goes here. Keep it brief but informative.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-white rounded-full">#tech</span>
-                        <span class="px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-white rounded-full">#stack</span>
-                    </div>
+            <!-- Imperial Code -->
+            <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
+                <img class="w-full h-48 object-cover rounded-xl" src="D:\Downloads\LYKA\portfolio\images\IDE.png" alt="Project thumbnail">
+                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">Imperial Code</h3>
+                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
+                    Lead programmer of ImperialCode - a C-based procedural language focused on efficiency and core programming concepts, featuring Victorian-inspired syntax.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYQT</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
                 </div>
             </div>
-            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-                <img class="w-full h-48 object-cover" src="D:\Downloads\LYKA\portfolio\images\VizKidz.jpg" alt="Project thumbnail">
-                <div class="p-6">
-                    <h3 class="font-bold text-xl mb-3 text-gray-900 dark:text-white">VizKidz</h3>
-                    <p class="text-gray-600 dark:text-gray-300 text-base mb-4">
-                        Project description goes here. Keep it brief but informative.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-white rounded-full">#tech</span>
-                        <span class="px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-white rounded-full">#stack</span>
-                    </div>
+            <!-- Gather Up -->
+            <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
+                <img class="w-full h-48 object-cover rounded-xl" src="D:\Downloads\LYKA\portfolio\images\GATHERUP.jpg" alt="Project thumbnail">
+                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">Gather Up</h3>
+                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
+                    Backend programmer of Gather Up - an event management system designed for college organizations that provides a platform to organize, manage,
+                    and promote their events using Python Django.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                    <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DJANGO</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
+                </div>
+            </div>
+            <!-- VizKidz -->
+            <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
+                <img class="w-full h-48 object-cover rounded-xl" src="D:\Downloads\LYKA\portfolio\images\VizKidz.jpg" alt="Project thumbnail">
+                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">VizKidz</h3>
+                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
+                    Frontend programmer of VizKidz -  an innovative platform  designed to visualize, analyze, and share insights effortlessly.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                    <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DJANGO</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
+                </div>
+            </div>
+            <!-- PhishPatrol -->
+            <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
+                <img class="w-full h-48 object-cover rounded-xl" src="D:\Downloads\LYKA\portfolio\images\thesis.JPG" alt="Project thumbnail">
+                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">PhishPatrol</h3>
+                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
+                    Programmer of PhishPatrol -  an Android mobile application designed to classify incoming messages whether it is a phishing message or not, using the enhanced Generalized Mean Distance K-Nearest Neighbor algorithm.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DART</span>
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                    <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">FLUTTER</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NUMPY</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PANDAS</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIKIT-LEARN</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIPY</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NLTK</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
                 </div>
             </div>
         </div>
@@ -146,7 +185,7 @@
         <div class="flex flex-col md:flex-row md:px-46 md:gap-2 w-full max-w-screen-xl space-y-4">
             <!-- Contact text -->
             <div class="space-y-4 w-full md:w-1/2">
-                <h1 class="text-6xl md:text-6xl lg:text-5xl font-semibold dark:text-white">Let's<br>Work<br>Together</h1>
+                <h1 class="text-6xl md:text-6xl lg:text-5xl font-semibold dark:text-white">Let's<br>Build<br>Something<br>Amazing</h1>
                 <p class="text-gray-500 dark:text-gray-400 text-sm md:text-base">Feel free to reach out for collaboration,<br>inquiries, or just to say hello!</p>
                 <button class="bg-indigo-500/95 hover:bg-indigo-400/95 text-white font-medium py-2 px-4 rounded inline-flex items-center">
                     <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
