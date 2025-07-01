@@ -32,91 +32,113 @@
             <div class="hidden w-full md:block md:w-auto mx-6" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                    <a href="#home" class="block py-2 px-3 text-gray-900 bg-indigo-500/95 rounded-sm md:bg-transparent md:hover:text-indigo-500/95  md:text-indigo-500/95 md:p-0 dark:text-white md:dark:text-indigo-500/95" aria-current="page">Home</a>
+                    <a href="#home" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-200 hover:text-indigo-500/50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500/95 md:p-0 dark:text-white md:dark:hover:text-indigo-500/95 dark:hover:bg-indigo-500/50 dark:hover:text-indigo-500/50 md:dark:hover:bg-transparent" aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="#about" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500/95 md:p-0 dark:text-white md:dark:hover:text-indigo-500/95 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    <a href="#about" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-200 hover:text-indigo-500/50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500/95 md:p-0 dark:text-white md:dark:hover:text-indigo-500/95 dark:hover:bg-indigo-500/50 dark:hover:text-indigo-500/50 md:dark:hover:bg-transparent">About</a>
                 </li>
                 <li>
-                    <a href="#projects" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500/95 md:p-0 dark:text-white md:dark:hover:text-indigo-500/95 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+                    <a href="#projects" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-200 hover:text-indigo-500/50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500/95 md:p-0 dark:text-white md:dark:hover:text-indigo-500/95 dark:hover:bg-indigo-500/50 dark:hover:text-indigo-500/50 md:dark:hover:bg-transparent">Projects</a>
                 </li>
                 <li>
-                    <a href="#contact" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500/95 md:p-0 dark:text-white md:dark:hover:text-indigo-500/95 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    <a href="#contact" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-200 hover:text-indigo-500/50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500/95 md:p-0 dark:text-white md:dark:hover:text-indigo-500/95 dark:hover:bg-indigo-500/50 dark:hover:text-indigo-500/50 md:dark:hover:bg-transparent">Contact</a>
                 </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <!-- Home -->
     <section id="home" class="h-screen flex items-center justify-center bg-white dark:bg-gray-900">
-        <article class="text-4xl md:text-7xl flex flex-row md:flex-row items-center justify-center space-x-5 md:gap-12 w-full max-w-screen-xl px-10 md:px-8">
-            <h1 class="text-left text-gray-900 dark:text-white font-bold">She<br>builds</h2>
-            <img class="w-42 h-44 md:w-64 md:h-64 rounded-full object-cover" src="./images/LABAJO ANGELIKA - PLM - CREATIVE (7) (EDITED).JPG" alt="LYKA">
-            <h1 class="text-right text-gray-900 dark:text-white font-bold">She<br>leads</h2>
+        <article class="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-5 md:gap-8 lg:gap-12 w-full max-w-screen-xl px-6 sm:px-8 md:px-10">
+            <h1 class="text-4xl md:text-6xl lg:text-8xl text-center sm:text-left text-gray-900 dark:text-white font-bold leading-tight">
+                She<br class="hidden sm:block">
+                <span class="sm:hidden"> </span>builds
+            </h1>
+            <img class="w-44 h-44 md:w-64 md:h-64 rounded-full object-cover flex-shrink-0"
+                src="./images/LABAJO ANGELIKA - PLM - CREATIVE (7) (EDITED).JPG"
+                alt="Profile image">
+            <h1 class="text-4xl md:text-6xl lg:text-8xl text-center sm:text-right text-gray-900 dark:text-white font-bold leading-tight">
+                She<br class="hidden sm:block">
+                <span class="sm:hidden"> </span>leads
+            </h1>
         </article>
     </section>
 
     <!-- About Me -->
     <section id="about" class="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 px-10 md:px-8 lg:px-16">
-        <div class="flex flex-col md:flex-row md:px-24 md:gap-12 w-full max-w-screen-xl space-y-4 md:mt-9">
-            <img class="h-2xs w-2xs md:h-5xs rounded-lg" src="./images/LABAJO ANGELIKA LOUISE-PLM-FILI-0103 (EDITED).JPG" alt="image description">
-            <div class="space-y-4">
+        <div class="flex flex-row md:flex-row md:px-24 gap-x-2 md:gap-12 w-full max-w-screen-xl space-y-4 md:mt-9">
+            <img class="w-32 h-32 md:w-64 md:h-64 rounded-full object-cover my-9" src="./images/LYKA.JPG" alt="image description">
+            <div class="space-y-3">
                 <div class="container">
-                    <h1 class="text-black dark:text-white text-5xl" id="typewriter"><span class="auto-type"></span></h1>
+                    <h1 class="text-black dark:text-white text-xl md:text-5xl md:whitespace-break-spaces" id="typewriter"><span class="auto-type"></span></h1>
                 </div>
-
-                <p class="text-black dark:text-white text-sm whitespace-normal text-justify">A Computer Science major from Pamantasan ng Lungsod ng Maynila — an aspiring web developer and project manager. I also have experience in mobile development and machine learning.
+                <p class="text-black dark:text-white text-2xs md:text-sm whitespace-normal text-justify">A Computer Science major from Pamantasan ng Lungsod ng Maynila — an aspiring software developer and project manager. This combination gives me the ability to comprehend and oversee the larger scope of project execution, in addition to developing useful and captivating applications.
                     Let’s connect, explore collaboration opportunities, and share knowledge as we grow together in the tech space.
                 </p>
-                <div class="mb-4 border-gray-200">
-                    <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" data-tabs-active-classes="text-indigo-500/95 hover:text-indigo-600/95 dark:text-indigo-500/95 dark:hover:text-indigo-600/95 border-indigo-500/95 dark:border-indigo-500/95" data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300" role="tablist">
+                <div class="mb-4 border-gray- whitespace-nowrap">
+                    <ul class="flex flex-nowrap -mb-px text-xs md:text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" data-tabs-active-classes="text-indigo-500/95 hover:text-indigo-600/95 dark:text-indigo-500/95 dark:hover:text-indigo-600/95 border-indigo-500/95 dark:border-indigo-500/95" data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300" role="tablist">
                         <li class="me-2" role="presentation">
-                            <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-indigo-500/95" id="profile-tab" data-tabs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Skills</button>
+                            <button class="inline-block p-2 border-b-2 rounded-t-lg hover:text-indigo-500/95" id="profile-tab" data-tabs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Skills</button>
                         </li>
                         <li class="me-2" role="presentation">
-                            <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-indigo-500/95 hover:border-gray-300 dark:hover:text-gray-300" id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">Experience</button>
+                            <button class="inline-block p-2 border-b-2 rounded-t-lg hover:text-indigo-500/95 hover:border-gray-300 dark:hover:text-gray-300" id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">Experience</button>
+                        </li>
+                        <li class="me-2" role="presentation">
+                            <button class="inline-block p-2 border-b-2 rounded-t-lg hover:text-indigo-500/95 hover:border-gray-300 dark:hover:text-gray-300" id="awards-tab" data-tabs-target="#awards" type="button" role="tab" aria-controls="awards" aria-selected="false">Awards</button>
                         </li>
                     </ul>
                 </div>
-                
+
                 <div id="default-tab-content">
                     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <div class="text-sm text-gray-500 dark:text-gray-400 flex flex-wrap gap-2">
-                            <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">C</span>
-                            <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">C++</span>
-                            <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
-                            <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">CSS3</span>
-                            <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
-                            <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">BOOTSTRAP</span>
-                            <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">JAVA</span>
-                            <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">JAVASCRIPT</span>
-                            <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
-                            <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DJANGO</span>
-                            <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NUMPY</span>
-                            <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PANDAS</span>
-                            <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIKIT-LEARN</span>
-                            <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIPY</span>
-                            <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NLTK</span>
-                            <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PHP</span>
-                            <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">LARAVEL</span>
-                            <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">LIVEWIRE</span>
-                            <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DART</span>
-                            <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">FLUTTER</span>
-                            <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
-                            <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GITHUB</span>
-                            <span class="tech-design px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">CANVA</span>
-                            <span class="tech-design px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">FIGMA</span>
-                            <span class="tech-productivity px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NOTION</span>
-                            <span class="tech-database px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">MYSQL</span>
+                            <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">C</span>
+                            <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">C++</span>
+                            <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
+                            <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">CSS3</span>
+                            <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
+                            <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">BOOTSTRAP</span>
+                            <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">JAVA</span>
+                            <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">JAVASCRIPT</span>
+                            <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                            <span class="tech-framework px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DJANGO</span>
+                            <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NUMPY</span>
+                            <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PANDAS</span>
+                            <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIKIT-LEARN</span>
+                            <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIPY</span>
+                            <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NLTK</span>
+                            <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PHP</span>
+                            <span class="tech-framework px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">LARAVEL</span>
+                            <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">LIVEWIRE</span>
+                            <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DART</span>
+                            <span class="tech-framework px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">FLUTTER</span>
+                            <span class="tech-dev-tool px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
+                            <span class="tech-dev-tool px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GITHUB</span>
+                            <span class="tech-design px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">CANVA</span>
+                            <span class="tech-design px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">FIGMA</span>
+                            <span class="tech-productivity px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NOTION</span>
+                            <span class="tech-database px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">MYSQL</span>
 
                         </div>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
-                        <div class="text-sm text-gray-500 dark:text-gray-400">
+                        <div class="text-xs md:text-sm text-gray-600 dark:text-gray-400 space-y-1">
                             <strong class="font-medium text-gray-800 dark:text-white">Project Management Intern</strong><br>
                             <p class="italic">eTap Solutions Inc.</p>
                             <p class="underline">July 2024 - August 2024</p>
+                            <li>Assisted in daily reports and weekly meetings under the Asset Protection</li>
+                            <li>Assisted in the project eKonek which is to scout for router sellers and did the minutes of the meeting during meetings with stakeholders and sellers.</li>
+                            <li>Assisted in the project eKondisyon which is to create a Risk Assessment for maintaining the pristine physical appearance of the kiosks
+                                especially those that are deployed 6 months and older which are being
+                                neglected or not prioritized.</li>
+                        </div>
+                    </div>
+                    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+                        <div class="text-xs md:text-sm text-gray-600 dark:text-gray-400 space-y-1">
+                            <strong class="font-medium text-gray-800 dark:text-white">Best Paper</strong><br>
+                            <p class="italic">2025 National Arts and Sciences Research Congress (NASERCON)</p>
+                            <p class="underline">February 6-7, 2025</p>
+                            <p>Our paper entitled Enhancement of Generalized Mean Distance K-Nearest Neighbor Algorithm in detecting Filipino Phishing Short Messaging System applied in Mobile Application was presented and awarded as the Best Paper under the category of Technology, Innovation, and Society </p>
                         </div>
                     </div>
                 </div>
@@ -126,86 +148,86 @@
 
     <!-- Projects -->
     <section id="projects" class="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-gray-900 px-4 md:px-8 lg:px-16 py-16">
-        <h2 class="text-4xl md:text-4xl lg:text-4xl font-semibold text-gray-900 dark:text-white mb-12">My Projects</h2>
+        <h2 class="text-4xl md:text-4xl lg:text-4xl font-semibold text-gray-900 dark:text-white mb-6">My Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-screen-xl md:px-14 px-6">
             <!-- PLM Budget Office -->
             <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
                 <img class="w-full h-48 object-cover rounded-xl" src="./images/BUDGETING.jpg" alt="Project thumbnail">
-                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">Web-based Budgeting System</h3>
-                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
+                <h3 class="text-xl font-bold my-2 text-gray-900 dark:text-white">Web-based Budgeting System</h3>
+                <p class="text-gray-600 text-sm dark:text-white leading-relaxed mb-5">
                     Support programmer for PLM's Budgeting Office ERP system using Laravel Framework.
                 </p>
                 <div class="flex flex-wrap gap-2">
-                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PHP</span>
-                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
-                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
-                    <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">LARAVEL</span>
-                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">LIVEWIRE</span>
-                    <span class="tech-database px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PHPMYADMIN</span>
-                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PHP</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
+                    <span class="tech-framework px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">LARAVEL</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">LIVEWIRE</span>
+                    <span class="tech-database px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PHPMYADMIN</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
                 </div>
             </div>
             <!-- Imperial Code -->
             <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
                 <img class="w-full h-48 object-cover rounded-xl" src="./images/IDE.png" alt="Project thumbnail">
-                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">Imperial Code</h3>
-                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
+                <h3 class="text-xl font-bold my-2 text-gray-900 dark:text-white">Imperial Code</h3>
+                <p class="text-gray-600 text-sm dark:text-white leading-relaxed mb-5">
                     Lead programmer of ImperialCode - a C-based procedural language focused on efficiency and core programming concepts, featuring Victorian-inspired syntax.
                 </p>
                 <div class="flex flex-wrap gap-2">
-                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
-                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYQT</span>
-                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYQT</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
                 </div>
             </div>
             <!-- Gather Up -->
             <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
                 <img class="w-full h-48 object-cover rounded-xl" src="./images/GATHERUP.jpg" alt="Project thumbnail">
-                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">Gather Up</h3>
-                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
+                <h3 class="text-xl font-bold my-2 text-gray-900 dark:text-white">Gather Up</h3>
+                <p class="text-gray-600 text-sm dark:text-white leading-relaxed mb-5">
                     Backend programmer of Gather Up - an event management system designed for college organizations that provides a platform to organize, manage,
                     and promote their events using Python Django.
                 </p>
                 <div class="flex flex-wrap gap-2">
-                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
-                    <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DJANGO</span>
-                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
-                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
-                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                    <span class="tech-framework px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DJANGO</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
                 </div>
             </div>
             <!-- VizKidz -->
             <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
                 <img class="w-full h-48 object-cover rounded-xl" src="./images/VizKidz.jpg" alt="Project thumbnail">
-                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">VizKidz</h3>
-                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
-                    Frontend programmer of VizKidz -  an innovative platform  designed to visualize, analyze, and share insights effortlessly.
+                <h3 class="text-xl font-bold my-2 text-gray-900 dark:text-white">VizKidz</h3>
+                <p class="text-gray-600 text-sm dark:text-white leading-relaxed mb-5">
+                    Frontend programmer of VizKidz - an innovative platform  designed to visualize, analyze, and share insights effortlessly.
                 </p>
                 <div class="flex flex-wrap gap-2">
-                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
-                    <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DJANGO</span>
-                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
-                    <span class="tech-frontend px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
-                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                    <span class="tech-framework px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DJANGO</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">HTML5</span>
+                    <span class="tech-frontend px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">TAILWINDCSS</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
                 </div>
             </div>
             <!-- PhishPatrol -->
             <div class="group bg-white shadow-lg dark:bg-gray-800 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-8 hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-2xl transition-all duration-300">
                 <img class="w-full h-48 object-cover rounded-xl" src="./images/thesis.JPG" alt="Project thumbnail">
-                <h3 class="text-2xl font-bold my-2 text-gray-900 dark:text-white">PhishPatrol</h3>
-                <p class="text-gray-600 dark:text-white leading-relaxed mb-5">
-                    Programmer of PhishPatrol -  an Android mobile application designed to classify incoming messages whether it is a phishing message or not, using the enhanced Generalized Mean Distance K-Nearest Neighbor algorithm.
+                <h3 class="text-xl font-bold my-2 text-gray-900 dark:text-white">PhishPatrol</h3>
+                <p class="text-gray-600 text-sm dark:text-white leading-relaxed mb-5">
+                    Programmer of PhishPatrol - an Android mobile application designed to classify incoming messages whether it is a phishing message or not, using the enhanced Generalized Mean Distance K-Nearest Neighbor algorithm.
                 </p>
                 <div class="flex flex-wrap gap-2">
-                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DART</span>
-                    <span class="tech-programming px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
-                    <span class="tech-framework px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">FLUTTER</span>
-                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NUMPY</span>
-                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PANDAS</span>
-                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIKIT-LEARN</span>
-                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIPY</span>
-                    <span class="tech-data-science px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NLTK</span>
-                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-sm font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">DART</span>
+                    <span class="tech-programming px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PYTHON</span>
+                    <span class="tech-framework px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">FLUTTER</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NUMPY</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">PANDAS</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIKIT-LEARN</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">SCIPY</span>
+                    <span class="tech-data-science px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">NLTK</span>
+                    <span class="tech-dev-tool px-3 py-1.5 rounded-full text-xs font-medium text-white hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 cursor-pointer">GIT</span>
                 </div>
             </div>
         </div>
@@ -264,7 +286,7 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('.auto-type', {
-            strings: ["whoami?", "Angelika Louise Labajo"],
+            strings: ["whoami ?!","Angelika Louise Labajo", "Lyka", "Likes"],
             typeSpeed: 100,
             backSpeed: 50,
             loop: true,
