@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: poppins, sans-serif;
 }
@@ -38,7 +41,7 @@ body {
 }
 
 .tech-productivity {
-  background: linear-gradient(135deg, #f44336, #e53935); 
+  background: linear-gradient(135deg, #f44336, #e53935);
 }
 
 .poppins-thin {
